@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.vscode/
+.idea/
+
+# Datasets
+benchmark/dataset-250115/data/
+*.npy
+*.npz
+
+# Model weights and fitted routers
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+*.safetensors
+
+# Logs
+*_output.txt
+*.log
+
+# Exclude raw benchmark datasets
+benchmark/benchmark_dataset/data/
+benchmark/dataset-250115/data/
+benchmark/**/data/
+
+# Exclude large generated artifacts
+*.npy
+*.npz
+*.ckpt
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Python caches
+__pycache__/
+.venv/
+venv/

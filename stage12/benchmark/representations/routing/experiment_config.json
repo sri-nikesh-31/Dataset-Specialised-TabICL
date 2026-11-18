@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "k": 8,
+  "test_fraction_requested": 0.2,
+  "n_datasets": 67,
+  "n_meta_train": 47,
+  "n_meta_test": 20,
+  "representations": [
+    "stat_signed_log",
+    "tab_mean_standard",
+    "tab_mean_std_standard"
+  ],
+  "note": "Family groupings require manual review. Routers were fitted only on meta-training dataset embeddings."
+}

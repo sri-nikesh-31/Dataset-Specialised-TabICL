@@ -65,3 +65,22 @@ The evaluator extracts 512D TabICL representations with the *original pretrained
 - **The meta-test dataset embeddings are used for routing, not fitting KMeans or selecting checkpoints.** They must never be used for hyperparameter selection.
 - To estimate variance and avoid overclaiming, repeat evaluation over multiple fixed random splits/seeds after the first run, without using the test sets to tune training.
 - Actual specialist competence may not improve upon pretrained TabICL, even when the representation and routing work.
+
+## Project Structure
+
+- stage12/: Original dataset representation learning,
+  embedding stability experiments and dataset clustering.
+- stage34/: Multi-dataset expert fine-tuning,
+  retrieval-based prediction and routing ablations.
+- results/: Recorded experimental results.
+
+## Acknowledgements
+
+The original Stage 1 and Stage 2 implementation was
+developed by Mahidhar as part of our team project.
+
+Original repository:
+https://github.com/Mahidhar21/Dataset-Specialised-TabICL
+
+Stage 3 and Stage 4 extend this implementation with
+episodic TabICL v2 specialist training and evaluation.
