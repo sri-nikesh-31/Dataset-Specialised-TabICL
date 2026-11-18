@@ -1,0 +1,30 @@
+{
+  "data_dir": "/mnt/d/DS_Proj/dataset-250115/data",
+  "expert": 2,
+  "output": "outputs/stage32/experts",
+  "epochs": 3,
+  "steps_per_epoch": 30,
+  "rows": 64,
+  "features": 32,
+  "learning_rate": 1e-05,
+  "val_fraction": 0.2,
+  "seed": 42,
+  "train_datasets": [
+    "Click_prediction_small",
+    "delta_ailerons",
+    "Heart-Disease-Dataset-(Comprehensive)",
+    "mammography",
+    "mozilla4",
+    "National_Health_and_Nutrition_Health_Survey",
+    "phoneme",
+    "Pima_Indians_Diabetes_Database",
+    "wine"
+  ],
+  "validation_datasets": [
+    "BNG(breast-w)",
+    "shill-bidding",
+    "water_quality"
+  ],
+  "failures": [],
+  "pretrained_val_loss": 0.1772008960445722
+}

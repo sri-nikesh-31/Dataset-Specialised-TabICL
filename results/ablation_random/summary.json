@@ -1,0 +1,37 @@
+{
+  "routing": "random",
+  "n_evaluated": 14,
+  "n_failed": 0,
+  "n_requested": 14,
+  "top_k": 3,
+  "baseline": {
+    "accuracy": 0.8616071428571429,
+    "balanced_accuracy": 0.8238520179270871,
+    "macro_f1": 0.8202255497154578,
+    "log_loss": 0.2894572807802476
+  },
+  "top1": {
+    "accuracy": 0.8621651785714286,
+    "balanced_accuracy": 0.8214620320919043,
+    "macro_f1": 0.8153933302411197,
+    "log_loss": 0.2931416722616557
+  },
+  "topk": {
+    "accuracy": 0.8621651785714286,
+    "balanced_accuracy": 0.8111804501608864,
+    "macro_f1": 0.8091664441108427,
+    "log_loss": 0.2905581313437751
+  },
+  "top1_minus_baseline": {
+    "accuracy": 0.0005580357142856984,
+    "balanced_accuracy": -0.002389985835182795,
+    "macro_f1": -0.004832219474338095,
+    "log_loss": 0.003684391481408089
+  },
+  "topk_minus_baseline": {
+    "accuracy": 0.0005580357142856984,
+    "balanced_accuracy": -0.012671567766200709,
+    "macro_f1": -0.011059105604615094,
+    "log_loss": 0.001100850563527489
+  }
+}

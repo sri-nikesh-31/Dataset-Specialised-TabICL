@@ -1,0 +1,33 @@
+{
+  "data_dir": "/mnt/d/DS_Proj/dataset-250115/data",
+  "expert": 1,
+  "output": "outputs/stage32/experts",
+  "epochs": 3,
+  "steps_per_epoch": 30,
+  "rows": 64,
+  "features": 32,
+  "learning_rate": 1e-05,
+  "val_fraction": 0.2,
+  "seed": 42,
+  "train_datasets": [
+    "credit",
+    "eye_movements_bin",
+    "kdd_ipums_la_97-small",
+    "pc3",
+    "pc4",
+    "philippine",
+    "PieChart3",
+    "pol",
+    "QSAR_biodegradation",
+    "sylvine",
+    "VulNoneVul"
+  ],
+  "validation_datasets": [
+    "ada",
+    "ada_agnostic",
+    "spambase",
+    "taiwanese_bankruptcy_prediction"
+  ],
+  "failures": [],
+  "pretrained_val_loss": 0.3587488532066345
+}

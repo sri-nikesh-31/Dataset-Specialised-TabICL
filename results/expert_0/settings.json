@@ -1,0 +1,34 @@
+{
+  "data_dir": "/mnt/d/DS_Proj/dataset-250115/data",
+  "expert": 0,
+  "output": "outputs/stage32/experts",
+  "epochs": 3,
+  "steps_per_epoch": 30,
+  "rows": 64,
+  "features": 32,
+  "learning_rate": 1e-05,
+  "val_fraction": 0.2,
+  "seed": 42,
+  "train_datasets": [
+    "California-Housing-Classification",
+    "eeg-eye-state",
+    "house_16H",
+    "jm1",
+    "kc1",
+    "Long",
+    "MagicTelescope",
+    "ozone-level-8hr",
+    "pc1",
+    "Performance-Prediction",
+    "Pumpkin_Seeds",
+    "svmguide3",
+    "Waterstress"
+  ],
+  "validation_datasets": [
+    "Basketball_c",
+    "htru",
+    "rice_cammeo_and_osmancik"
+  ],
+  "failures": [],
+  "pretrained_val_loss": 0.3706907232602437
+}

@@ -1,0 +1,37 @@
+{
+  "routing": "fixed",
+  "n_evaluated": 14,
+  "n_failed": 0,
+  "n_requested": 14,
+  "top_k": 3,
+  "baseline": {
+    "accuracy": 0.8616071428571429,
+    "balanced_accuracy": 0.8238520179270871,
+    "macro_f1": 0.8202255497154578,
+    "log_loss": 0.2894572807802476
+  },
+  "top1": {
+    "accuracy": 0.8621651785714286,
+    "balanced_accuracy": 0.8115020858415036,
+    "macro_f1": 0.8103583197802793,
+    "log_loss": 0.29795258596518004
+  },
+  "topk": {
+    "accuracy": 0.8638392857142857,
+    "balanced_accuracy": 0.8188258801277447,
+    "macro_f1": 0.8163893351195854,
+    "log_loss": 0.29105116364040073
+  },
+  "top1_minus_baseline": {
+    "accuracy": 0.0005580357142856984,
+    "balanced_accuracy": -0.012349932085583437,
+    "macro_f1": -0.009867229935178523,
+    "log_loss": 0.008495305184932411
+  },
+  "topk_minus_baseline": {
+    "accuracy": 0.0022321428571427937,
+    "balanced_accuracy": -0.005026137799342356,
+    "macro_f1": -0.003836214595872356,
+    "log_loss": 0.0015938828601531063
+  }
+}
