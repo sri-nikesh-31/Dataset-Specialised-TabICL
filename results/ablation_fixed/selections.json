@@ -1,0 +1,198 @@
+[
+  {
+    "dataset": "Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-10.0GHz(Urbinati)",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      17.846267707967755,
+      18.738184535298075,
+      27.838597408236147
+    ]
+  },
+  {
+    "dataset": "Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-10.5GHz(Urbinati)",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      17.926613761087097,
+      18.6838356550264,
+      28.62751807319153
+    ]
+  },
+  {
+    "dataset": "Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-11.0GHz(Urbinati)",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      18.794466427617863,
+      18.296861794507272,
+      28.049419536315042
+    ]
+  },
+  {
+    "dataset": "Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-9.0GHz(Urbinati)",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      17.157313306324202,
+      19.506290221937892,
+      28.614105371656823
+    ]
+  },
+  {
+    "dataset": "Contaminant-detection-in-packaged-cocoa-hazelnut-spread-jars-using-Microwaves-Sensing-and-Machine-Learning-9.5GHz(Urbinati)",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      18.617287173542035,
+      18.807418715661278,
+      27.807104250143812
+    ]
+  },
+  {
+    "dataset": "heloc",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      15.607950018175615,
+      16.354482671514404,
+      25.034029943759265
+    ]
+  },
+  {
+    "dataset": "hill-valley",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      46.6187921509043,
+      44.7083976289985,
+      44.08669790456086
+    ]
+  },
+  {
+    "dataset": "madeline",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      39.81922689255087,
+      36.010668965749666,
+      42.17924961506866
+    ]
+  },
+  {
+    "dataset": "mobile_c36_oversampling",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      27.598568767113736,
+      28.91374226608155,
+      21.768139622767826
+    ]
+  },
+  {
+    "dataset": "PizzaCutter3",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      17.90446835395006,
+      17.140774566877216,
+      28.940237529989815
+    ]
+  },
+  {
+    "dataset": "ringnorm",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      34.389265547225946,
+      33.85179277523019,
+      34.49677555559661
+    ]
+  },
+  {
+    "dataset": "twonorm",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      28.03888746902211,
+      27.189368894815708,
+      28.487552830818004
+    ]
+  },
+  {
+    "dataset": "Water_Quality_and_Potability",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      28.139076786189253,
+      27.161207731870846,
+      23.530913691114637
+    ]
+  },
+  {
+    "dataset": "Wilt",
+    "routing": "fixed",
+    "experts": [
+      0,
+      1,
+      2
+    ],
+    "distances": [
+      29.85144565442192,
+      33.25881712001352,
+      32.01002365962212
+    ]
+  }
+]

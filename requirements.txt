@@ -1,0 +1,10 @@
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+torch==2.14.1+cu126
+joblib==1.6.0
+tabicl==2.2.0
+tqdm==4.70.1
+einops==0.8.2
+huggingface-hub==2.4.0

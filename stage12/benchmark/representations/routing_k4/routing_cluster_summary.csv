@@ -1,0 +1,13 @@
+representation,cluster,n_meta_train,n_meta_test
+stat_signed_log,0,22,10
+stat_signed_log,1,11,1
+stat_signed_log,2,14,2
+stat_signed_log,3,6,1
+tab_mean_standard,0,16,6
+tab_mean_standard,1,15,5
+tab_mean_standard,2,12,2
+tab_mean_standard,3,10,1
+tab_mean_std_standard,0,21,8
+tab_mean_std_standard,1,16,4
+tab_mean_std_standard,2,9,1
+tab_mean_std_standard,3,7,1

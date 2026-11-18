@@ -1,0 +1,28 @@
+{
+  "data_dir": "/mnt/d/DS_Proj/dataset-250115/data",
+  "expert": 3,
+  "output": "outputs/stage32/experts",
+  "epochs": 3,
+  "steps_per_epoch": 30,
+  "rows": 64,
+  "features": 32,
+  "learning_rate": 1e-05,
+  "val_fraction": 0.2,
+  "seed": 42,
+  "train_datasets": [
+    "FOREX_audcad-day-High",
+    "FOREX_audcad-hour-High",
+    "FOREX_audchf-day-High",
+    "FOREX_audjpy-day-High",
+    "FOREX_audjpy-hour-High",
+    "FOREX_audsgd-hour-High",
+    "FOREX_audusd-hour-High",
+    "FOREX_cadjpy-day-High",
+    "FOREX_cadjpy-hour-High"
+  ],
+  "validation_datasets": [
+    "banknote_authentication"
+  ],
+  "failures": [],
+  "pretrained_val_loss": 0.752471923828125
+}

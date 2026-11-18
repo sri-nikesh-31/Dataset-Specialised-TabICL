@@ -1,0 +1,39 @@
+{
+  "tabicl_version": "2.2.0",
+  "prediction_shape": [
+    5,
+    2
+  ],
+  "hook_calls": [
+    {
+      "input": [
+        {
+          "type": "Tensor",
+          "shape": [
+            1,
+            125,
+            14,
+            128
+          ],
+          "dtype": "torch.float32"
+        }
+      ],
+      "output": {
+        "type": "Tensor",
+        "shape": [
+          1,
+          125,
+          512
+        ],
+        "dtype": "torch.float32"
+      }
+    }
+  ],
+  "captured_tensor_shapes": [
+    [
+      1,
+      125,
+      512
+    ]
+  ]
+}

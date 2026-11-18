@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.joblib
+*.pkl
+
+# Dataset arrays
+*.npy
+*.npz
+data/
+datasets/
+
+# Generated outputs
+outputs/
+*.tar
+*.zip
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
